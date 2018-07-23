@@ -1,0 +1,12 @@
+function x {
+  if [ -x *.xcworkspace ] || [ -x *.xcworkspace ]; then
+    echo "Opening '${PWD}' with Xcode"
+    open -a Xcode .
+  elif [ -x *.idea ]; then
+    echo "Opening '${PWD}' with Android Studio"
+    open -a "Android Studio" . # Need a better test for android studio
+  else
+    echo "Opening '${PWD}' with Visual Studio Code"
+    code .
+  fi
+}
