@@ -1,6 +1,7 @@
 [user]
   name = Philip Blackwell
-  email = philip@stripysock.com.au
+  email = p.blackwell@gmail.com
+  signingkey = 58C8A0B2BEDD6362
 
 [core]
   editor = code -n -w
