@@ -1,0 +1,6 @@
+function ci {
+  FASTLANE_DIR=`find . -type d -iname fastlane | head -1`
+  BUILDKITE_DIR=`find . -type d -iname .buildkite | head -1`
+  echo "Opening CI directories '${FASTLANE_DIR}' and '${BUILDKITE_DIR}' ..."
+  code "${FASTLANE_DIR}" "${BUILDKITE_DIR}"
+}
