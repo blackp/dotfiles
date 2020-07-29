@@ -26,3 +26,5 @@ export WORDCHARS='*?-.[]~&;!#$%^(){}<>'
 
 export VISUAL=code
 export EDITOR=$VISUAL
+export GEM_HOME=/Users/philip/.gem
+export PATH="$GEM_HOME/bin:$PATH"
